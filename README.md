@@ -8,7 +8,7 @@ Programación Integrativa de Componentes Web · Unidad 1: Web Components
 | Estudiantes (Apellido Nombre) | Pinos Cordero Rashell |
 | NRC | 36643 |
 | Fecha | 15 de octubre de 2026 |
-| Enlace del repositorio | (pega aquí el link de tu repositorio de GitHub) |
+| Enlace del repositorio | https://github.com/rashellpinos/Avance-1.git |
 
 ## Propuesta del emprendimiento
 
