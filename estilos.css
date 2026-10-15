@@ -1,0 +1,21 @@
+/* estilos.css · estilos de la PÁGINA (no del componente) */
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: #F9F9F6;
+  color: #2C3E50;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 900px;
+}
+
+/* PASO 3 · Aquí la página le entrega al componente el color de tu marca. */
+tarjeta-producto {
+  --color-marca: #3D8B4F;
+}

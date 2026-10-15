@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SierrAroma / SnackBar · Catálogo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./estilos.css">
+
+  <!-- PASO 1 · La página solo importa el módulo del componente. -->
+  <script type="module" src="./componentes/tarjeta-producto.js"></script>
+</head>
+<body>
+  <h1>SierrAroma / SnackBar</h1>
+
+  <!-- PASO 4 · Tres tarjetas con los productos reales del emprendimiento -->
+  <main class="catalogo">
+
+    <!-- Tarjeta 1 (Rashell - Bebida real + Reto extra "destacado") -->
+    <tarjeta-producto precio="2.00" destacado>
+      <img slot="foto" src="./img/producto1.jpg" alt="Vaso de infusión fría de guayusa orgánica con rodajas de limón">
+      <h3 slot="nombre">Infusión fría de Guayusa Orgánica con Limón</h3>
+      <p>Bebida ancestral ecuatoriana con propiedades energizantes naturales, refrescante y 100% orgánica.</p>
+    </tarjeta-producto>
+
+    <!-- Tarjeta 2 (Lili - Snack salado real) -->
+    <tarjeta-producto precio="1.75">
+      <img slot="foto" src="./img/producto2.jpg" alt="Porción de tostado andino crujiente con sal marina y hierbas">
+      <h3 slot="nombre">Tostado Andino Crujiente con Sal Marina y Hierbas</h3>
+      <p>Maíz tostado gourmet de la sierra ecuatoriana, horneado artesanalmente y bajo en grasa.</p>
+    </tarjeta-producto>
+
+    <!-- Tarjeta 3 (Camila - Snack dulce real) -->
+    <tarjeta-producto precio="2.50">
+      <img slot="foto" src="./img/producto3.jpg" alt="Galletas artesanales de quinua con trozos de chocolate al 70%">
+      <h3 slot="nombre">Galletas Artesanales de Quinua con Chocolate 70%</h3>
+      <p>Galletas nutritivas a base de harina de quinua combinadas con cacao fino de aroma ecuatoriano.</p>
+    </tarjeta-producto>
+
+  </main>
+</body>
+</html>
